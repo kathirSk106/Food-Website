@@ -1,0 +1,42 @@
+.Cnavbar{
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.navbar-logo{
+    color: green;
+    font-size: 28px;
+    font-weight: bold;
+    /* transition: color 0.3 ease; */
+}
+.nav-item{
+    color: #3aa500 ;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-item:hover{
+    color: #ff9100;
+}
+.nav-button{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #3aa500;
+    border-radius: 10px;
+    color: #3aa500;  
+}
+.nav-button:hover{
+    background: transparent;
+    color: #ff9100;
+    border: 2px solid #ff9100;
+}
+@media(max-width:992px){
+    .nav-item{
+        margin:  0;
+    }
+    .nav-button{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,47 @@
+.food-products{
+    display: flex;
+    width: 95vw;
+    flex-wrap: wrap;
+    border: solid 1px rgb(199, 199, 199);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+   background-color: #ffff;
+}
+.product-card{
+    flex-grow: 1; 
+}
+.card-info{
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+}
+.card-btm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-btm button{
+    font-size: 12px;
+    font-weight:600 ;
+    color: #ffff;
+    padding: 10px 20px;
+    background-color: #ff9100;
+    border: none;
+    border-radius: 20px;
+}
+.price{
+    position: relative;
+     top: 10px;
+     padding: 0 10px;
+     border-radius: 20px;
+     border: 2px solid #3aa500;
+   font-size: 18px;
+   color: #3aa500;
+   background: none;
+   font-weight: bold;
+   align-items: center;
+   text-align: center;
+}
